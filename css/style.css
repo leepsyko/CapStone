@@ -1,0 +1,95 @@
+/* global */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* header */
+header {
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
+}
+
+#search_header {
+    display: inline-block;
+    background: #F7F9FC;
+    color: gray;
+    border: 1px solid #d8dade;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+header .navbar-nav .nav-link.active, header .container .navbar .container-fluid .navbar-brand {
+    color: #dc4f72;
+}
+
+header .nav-item .nav-link {
+    color: #2c3038;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Light theme */
+#myBody {
+    background-color: white;
+}
+
+#switchButton {
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+#switchButton .fa-sun {
+    display: none;
+}
+
+#switchButton .fa-moon {
+    display: block;
+}
+
+/* Dark Theme*/
+.dark#myBody {
+    background-color: black;
+}
+
+.dark #switchButton {
+    background-color: black;
+    /* border: 1px solid white;  */
+}
+
+.dark #switchButton .fa-sun {
+    display: block;
+    color: white;
+}
+
+.dark #switchButton .fa-moon {
+    display: none;
+}
+
+.dark .card {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
