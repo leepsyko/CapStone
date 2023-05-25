@@ -33,13 +33,39 @@ header .nav-item .nav-link {
     color: #2c3038;
 }
 
+header .container ul li a {
+    position: relative;
+}
 
 
+header .container ul li a::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    width: 0;
+    height: 2.5px;
+    background-color: #dc4f72;
+    transition: all 0.5s;
 
+}
 
+header .container ul li a:hover::before {
+    width: 25px;
+    color: #dc4f72;
+}
 
+/* style for popup icon search */
 
+.modal.fade#popup_header .modal-content {
+    background-color: transparent;
+    border: none;
+}
 
+.modal.fade#popup_header .modal-content .modal-header {
+    border: none;
+
+}
 
 
 
