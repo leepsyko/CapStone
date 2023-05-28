@@ -8,9 +8,23 @@
     font-family: 'Nunito', sans-serif;
 }
 
+
+.sub_title {
+    line-height: 20px;
+    color: #dc4f72;
+    margin: 0 0;
+}
+
+.sub_content {
+    font-size: 16px;
+    color: #5a5a5a;
+}
+
+
 /* header */
 header {
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
+    /* z-index: 99999; */
 }
 
 #search_header {
@@ -67,6 +81,126 @@ header .container ul li a:hover::before {
 
 }
 
+
+/* CAROUSEL */
+
+.cap_carousel {
+    margin-top: 30px;
+    background-image: url(../img/banner.jpg);
+    background-attachment: fixed;
+    position: relative;
+    margin-top: 90px;
+    background-position: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cap_carousel::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.958);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.cap_carousel .container {
+    padding: 0 25px;
+    margin: auto;
+}
+
+.cap_left, .cap_right {
+    width: 50%;
+}
+
+.cap_left {
+    padding: 30px;
+}
+
+.cap_left h1 {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+.cap_left p {
+    margin-right: 100px;
+    font-size: 20px;
+    color: #5a5a5a;
+}
+
+
+/* tools */
+.cap_tools .cap_tools_top {
+    width: 65%;
+    margin: auto;
+    padding: 70px;
+}
+
+.cap_tools .cap_tools_top h2 {
+    color: #2c3038;
+    font-size: 46px;
+    line-height: 46px;
+    font-weight: bold;
+}
+
+.tools_item {
+    padding: 0 15px;
+    background-color: #F7F9FC;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.tools_item:hover {
+    background-color: white;
+    box-shadow: 1px 10px 30px rgb(214, 214, 214);
+    transform: translateY(-5px);
+}
+
+.tools_item .tools_content {
+    padding: 48px 32px;
+    transition: all 0.5s;
+}
+
+
+/* infomation */
+
+.cap_infor {
+    background-color: #F7F9FC;
+    /* height: 60vh; */
+    padding: 80px 0 50px;
+}
+
+.infor_top_left, .infor_top_right {
+    width: 50%;
+}
+
+.infor_top_right img {
+    width: 80%;
+    object-fit: 100%;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.infor_top_right img:hover {
+    box-shadow: 0px 10px 30px rgb(214, 214, 214);
+    transform: translateY(-5px);
+
+}
+
+.infor_top_left h2{
+    color: #2C3038;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.infor_top_left button{
+    margin-top: 30px;
+    padding: 15px 20px;
+}
 
 
 
