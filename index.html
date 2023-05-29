@@ -215,19 +215,56 @@
       <section class="cap_infor">
         <div class="container">
           <div class="infor_top d-flex">
-            <div class="infor_top_left ">
-              <p class="sub_title">
-                ABOUT OUR COMPANY
-              </p>
+            <div class="infor_top_left">
+              <p class="sub_title">ABOUT OUR COMPANY</p>
               <h2>The Best Choice For Your Successful Business!</h2>
-              <p class="sub_content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est repellendus illum harum quam nihil totam reprehenderit! Ut sed eveniet quos! Asperiores officia, repudiandae similique reiciendis, ab est magnam esse nesciunt ea fuga facere voluptatem.</p>
+              <p class="sub_content">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est
+                repellendus illum harum quam nihil totam reprehenderit! Ut sed
+                eveniet quos! Asperiores officia, repudiandae similique
+                reiciendis, ab est magnam esse nesciunt ea fuga facere
+                voluptatem.
+              </p>
               <button>READ MORE</button>
             </div>
             <div class="infor_top_right">
-              <img src="./img/about.jpg" alt="">
+              <img src="./img/about.jpg" alt="" />
             </div>
           </div>
-          <div class="infor_bottom"></div>
+          <div class="infor_bottom d-grid">
+            <div class="row">
+              <div class="infor_items col-4">
+                <div class="infor_content">
+                  <p>Happy Customers</p>
+                  <h2 class="counter">10458</h2>
+                  <p class="sub_content">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Facere atque sed.
+                  </p>
+                </div>
+              </div>
+              <div class="infor_items col-4">
+                <div class="infor_content">
+                  <p>Winning Awards</p>
+                  <h2 class="counter">890</h2>
+                  <p class="sub_content">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Facere atque sed.
+                  </p>
+                </div>
+              </div>
+              <div class="infor_items col-4">
+                <div class="infor_content">
+                  <p>Completed Projects</p>
+                  <h2 class="counter">5345</h2>
+                  <p class="sub_content">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Facere atque sed.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <!-- news -->
@@ -360,5 +397,29 @@
     ></script>
     <!-- theme dark and light js -->
     <script src="./js/index.js"></script>
+
+    <!-- jquery  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- counting number up -->
+    <script src="./js/count_up/jquery.countup.js"></script>
+
+    <script>
+      $(".counter").countUp({
+        time: 2000,
+        delay: 10,
+      });
+    </script>
   </body>
 </html>
