@@ -292,6 +292,28 @@ header .container ul li a:hover::before {
 
 /* FAQs */
 
+.cap_faqs .container .faqs_bottom .faqs_bottom_left{
+    width: 40%;
+    padding: 0 80px 80px 80px;
+}
+
+.cap_faqs .container .faqs_bottom .faqs_bottom_left img{
+    width: 100%;
+    height: auto;
+    object-fit: 100%;
+    box-shadow: 1px 5px 20px rgb(204, 204, 204);
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+.cap_faqs .container .faqs_bottom .faqs_bottom_left img:hover{
+    transform: translateY(-10px);
+}
+
+.cap_faqs .container .faqs_bottom .faqs_bottom_right{
+    width: 60%;
+}
+
 
 
 
