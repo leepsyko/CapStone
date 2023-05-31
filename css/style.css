@@ -165,7 +165,7 @@ header .container ul li a:hover::before {
 }
 
 
-/* infomation */
+/* information */
 
 .cap_infor {
     background-color: #F7F9FC;
@@ -292,6 +292,10 @@ header .container ul li a:hover::before {
 
 /* FAQs */
 
+.cap_faqs{
+    background-color: #F7F9FC;
+}
+
 .cap_faqs .container .faqs_bottom .faqs_bottom_left {
     width: 40%;
     padding: 0 80px 80px 80px;
@@ -314,6 +318,12 @@ header .container ul li a:hover::before {
     width: 60%;
 }
 
+
+.accordion-button:not(.collapsed){
+    color: black;
+    background-color: #fff;
+    box-shadow: none;
+}
 
 
 
