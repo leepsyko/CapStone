@@ -266,11 +266,11 @@ header .container ul li a:hover::before {
     background: linear-gradient(0.25turn, #000000c7, #00000056);
 }
 
-.cap_news .container div{
+.cap_news .container div {
     width: 40%;
 }
 
-.cap_news .container div h2{
+.cap_news .container div h2 {
     font-size: 30px;
     font-weight: bold;
 }
@@ -292,12 +292,12 @@ header .container ul li a:hover::before {
 
 /* FAQs */
 
-.cap_faqs .container .faqs_bottom .faqs_bottom_left{
+.cap_faqs .container .faqs_bottom .faqs_bottom_left {
     width: 40%;
     padding: 0 80px 80px 80px;
 }
 
-.cap_faqs .container .faqs_bottom .faqs_bottom_left img{
+.cap_faqs .container .faqs_bottom .faqs_bottom_left img {
     width: 100%;
     height: auto;
     object-fit: 100%;
@@ -306,11 +306,11 @@ header .container ul li a:hover::before {
     border-radius: 5px;
 }
 
-.cap_faqs .container .faqs_bottom .faqs_bottom_left img:hover{
+.cap_faqs .container .faqs_bottom .faqs_bottom_left img:hover {
     transform: translateY(-10px);
 }
 
-.cap_faqs .container .faqs_bottom .faqs_bottom_right{
+.cap_faqs .container .faqs_bottom .faqs_bottom_right {
     width: 60%;
 }
 
