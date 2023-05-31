@@ -13,6 +13,7 @@
     line-height: 20px;
     color: #dc4f72;
     margin: 0 0;
+    font-weight: bold;
 }
 
 .sub_content {
@@ -323,6 +324,24 @@ header .container ul li a:hover::before {
     color: black;
     background-color: #fff;
     box-shadow: none;
+}
+
+/* project */
+
+.cap_project .container .cap_pj_bottom .pj_bt_item{
+    gap: 20px;
+}
+
+.cap_project .container .cap_pj_bottom .pj_bt_item h3{
+    font-size: 30px;
+}
+
+.cap_project .container .cap_pj_bottom .pj_bt_item img{
+    transition: all 0.5s;
+}
+
+.cap_project .container .cap_pj_bottom .pj_bt_item img:hover{
+    transform: translateY(-10px);
 }
 
 
