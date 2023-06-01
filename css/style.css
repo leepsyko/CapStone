@@ -397,15 +397,58 @@ header .container ul li a:hover::before {
     background-color: #D62F58;
 }
 
+/* footer */
+footer{
+    background-color: #F7F9FC;
+}
 
+.footer_top .footer_item ul{
+    list-style: none;
+    padding: 0 0;
+}
 
+.footer_top .footer_item ul li{
+    padding: 8px 0;
+}
 
+.footer_top .footer_item{
+    width: 15%;
+}
 
+.footer_top .footer_item:nth-of-type(4){
+    width: 55%;
+}
+.footer_top .footer_item:nth-of-type(4) div{
+    box-shadow: 1px 5px 7.5px rgba(14, 13, 13,0.2);
+}
+.footer_top .footer_item:nth-of-type(4) div h3{
+    font-size: 18px;
+    color: #2C3038;
+    margin: 0 0 0px 0;
+}
 
-
-
-
-
+.footer_top .footer_item:nth-of-type(4) div input{
+    border: none;
+    background-color: #F7F9FC ;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+.footer_top .footer_item:nth-of-type(4) div button{
+    margin-top: 30px;
+    padding: 12px 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #dc4f72;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+}
+.footer_top .footer_item:nth-of-type(4) div{
+    font-size: 22px;
+}
 
 
 
