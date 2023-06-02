@@ -482,6 +482,41 @@ footer {
 }
 
 
+/* back to top */
+
+.top_up a{
+    width: 50px;
+    height: 50px;
+    background: #f55f8d;
+    border-radius: 0px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+    transition: all .2s;
+    box-shadow: -4px 4px 24px -10px #f55f8d;
+    opacity: 0;
+    /* visibility: visible; */
+  }
+  
+  
+  .top_up{
+    position: relative;
+  }
+  
+  .top_up .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .cd-top--fade-out { 
+    opacity: .5;
+  }
+  
+
 
 
 /* Light theme */
