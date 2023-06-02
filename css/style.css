@@ -293,7 +293,7 @@ header .container ul li a:hover::before {
 
 /* FAQs */
 
-.cap_faqs{
+.cap_faqs {
     background-color: #F7F9FC;
 }
 
@@ -320,7 +320,7 @@ header .container ul li a:hover::before {
 }
 
 
-.accordion-button:not(.collapsed){
+.accordion-button:not(.collapsed) {
     color: black;
     background-color: #fff;
     box-shadow: none;
@@ -328,30 +328,57 @@ header .container ul li a:hover::before {
 
 /* project */
 
-.cap_project .container .cap_pj_bottom .pj_bt_item{
+.cap_project .container .cap_pj_bottom .pj_bt_item {
     gap: 20px;
 }
 
-.cap_project .container .cap_pj_bottom .pj_bt_item h3{
+.cap_project .container .cap_pj_bottom .pj_bt_item h3 {
     font-size: 30px;
 }
 
-.cap_project .container .cap_pj_bottom .pj_bt_item img{
+.cap_project .container .cap_pj_bottom .pj_bt_item img {
     transition: all 0.5s;
 }
 
-.cap_project .container .cap_pj_bottom .pj_bt_item img:hover{
+.cap_project .container .cap_pj_bottom .pj_bt_item img:hover {
     transform: translateY(-10px);
 }
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: transparent;
+    color: #dc4f72 ;
+    padding: 10px 110px;
+}
+
+.nav-pills .nav-link.active{
+    position: relative;
+}
+
+.nav-pills .nav-link.active::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #dc4f72;
+}
+
+.nav-pills .nav-link{
+    padding: 10px 110px;
+ color: black;
+}
+
+
+
 /* feeback */
 
-.cap_feedback{
-    background: linear-gradient(to right, white,rgba(255, 255, 255, 0.77)), url(../img/b2.jpg);
+.cap_feedback {
+    background: linear-gradient(to right, white, rgba(255, 255, 255, 0.77)), url(../img/b2.jpg);
     padding: 70px 0;
 }
 
-.cap_feedback .container .fb_bottom .fb_bt_item{
+.cap_feedback .container .fb_bottom .fb_bt_item {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -368,20 +395,20 @@ header .container ul li a:hover::before {
     margin-right: 10px;
 }
 
-.fb_bt_item .fb_bt_right h4{
+.fb_bt_item .fb_bt_right h4 {
     color: #dc4f72;
     font-size: 18px;
 
 }
 
-.fb_bt_item .fb_bt_right span{
+.fb_bt_item .fb_bt_right span {
     font-size: 13px;
     color: #5a5a5a;
 }
 
 /* call to action */
 
-.action_button  button:nth-of-type(2){
+.action_button button:nth-of-type(2) {
     margin-top: 30px;
     padding: 16px 24px;
     font-weight: 700;
@@ -398,45 +425,48 @@ header .container ul li a:hover::before {
 }
 
 /* footer */
-footer{
+footer {
     background-color: #F7F9FC;
 }
 
-.footer_top .footer_item ul{
+.footer_top .footer_item ul {
     list-style: none;
     padding: 0 0;
 }
 
-.footer_top .footer_item ul li{
+.footer_top .footer_item ul li {
     padding: 8px 0;
 }
 
-.footer_top .footer_item{
+.footer_top .footer_item {
     width: 15%;
 }
 
-.footer_top .footer_item:nth-of-type(4){
+.footer_top .footer_item:nth-of-type(4) {
     width: 55%;
 }
-.footer_top .footer_item:nth-of-type(4) div{
-    box-shadow: 1px 5px 7.5px rgba(14, 13, 13,0.2);
+
+.footer_top .footer_item:nth-of-type(4) div {
+    box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
 }
-.footer_top .footer_item:nth-of-type(4) div h3{
+
+.footer_top .footer_item:nth-of-type(4) div h3 {
     font-size: 18px;
     color: #2C3038;
     margin: 0 0 0px 0;
 }
 
-.footer_top .footer_item:nth-of-type(4) div input{
+.footer_top .footer_item:nth-of-type(4) div input {
     border: none;
-    background-color: #F7F9FC ;
+    background-color: #F7F9FC;
     padding: 12px 20px;
     border-radius: 5px;
     margin-right: 10px;
     margin-bottom: 20px;
     width: 70%;
 }
-.footer_top .footer_item:nth-of-type(4) div button{
+
+.footer_top .footer_item:nth-of-type(4) div button {
     margin-top: 30px;
     padding: 12px 20px;
     font-weight: 700;
@@ -446,7 +476,8 @@ footer{
     border: none;
     border-radius: 5px;
 }
-.footer_top .footer_item:nth-of-type(4) div{
+
+.footer_top .footer_item:nth-of-type(4) div {
     font-size: 22px;
 }
 
