@@ -86,7 +86,6 @@ header .container ul li a:hover::before {
 /* CAROUSEL */
 
 .cap_carousel {
-    margin-top: 30px;
     background-image: url(../img/banner.jpg);
     background-attachment: fixed;
     position: relative;
