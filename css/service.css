@@ -85,13 +85,13 @@ header .container ul li a:hover::before {
 
 /* next page home */
 
-.nextpage{
+.nextpage {
     margin-top: 60px;
     background-color: rgb(247, 247, 247);
     padding: 20px 0;
 }
 
-.nextpage a{
+.nextpage a {
     text-decoration: none;
     color: #f55f8d;
 }
@@ -123,6 +123,35 @@ header .container ul li a:hover::before {
     text-align: center;
     box-shadow: 1px 5px 20px rgb(204, 204, 204);
 }
+
+/* strategy */
+.cap_strategy{
+    background-color: #F7F9FC;
+}
+
+.strategy_bottom .strategy_bot_left,.strategy_bottom .strategy_bot_right{
+    width: 30%;
+}
+.strategy_bottom .strategy_bot_left .strategy_number span,.strategy_bottom .strategy_bot_right .strategy_number span {
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 30px;
+    box-shadow: 0 0.5em 1em rgb(207, 207, 207) ;
+    color: #f55f8d;
+}
+.strategy_bottom .strategy_bot_center{
+    width: 40%;
+}
+.strategy_bottom .strategy_bot_center img{
+    border-radius: 50%;
+}
+
 
 
 
@@ -205,7 +234,7 @@ footer {
 
 /* back to top */
 
-.top_up a{
+.top_up a {
     width: 50px;
     height: 50px;
     background: #f55f8d;
@@ -221,22 +250,22 @@ footer {
     box-shadow: -4px 4px 24px -10px #f55f8d;
     opacity: 0;
     /* visibility: visible; */
-  }
-  
-  
-  .top_up{
+}
+
+
+.top_up {
     position: relative;
-  }
-  
-  .top_up .cd-top--is-visible {
+}
+
+.top_up .cd-top--is-visible {
     visibility: visible;
     opacity: 1;
-  }
-  
-  .cd-top--fade-out { 
+}
+
+.cd-top--fade-out {
     opacity: .5;
-  }
-  
+}
+
 
 
 
