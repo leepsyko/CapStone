@@ -20,7 +20,14 @@
     font-size: 16px;
     color: #5a5a5a;
 }
-
+button.white{
+    border-color:#dc4f72 ;
+    color: #dc4f72;
+    transition: all 0.5s;
+}
+button.white:hover{
+    background-color: #dc4f72 !important;
+}
 button.red {
     margin-top: 30px;
     padding: 15px 25px;
@@ -121,9 +128,20 @@ header .container ul li a:hover::before {
     width: 80px;
     line-height: 78px;
     border-radius: 50%;
-    background-color: #d8dade;
+    background-color: #F7F9FC;
     text-align: center;
     box-shadow: 1px 5px 20px rgb(204, 204, 204);
+}
+.service_right .service_img img{
+    width: 40%;
+}
+
+.service_bottom .service_right h3{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.service_bottom .service_right h3:hover{
+    color: #dc4f72;
 }
 
 /* strategy */
@@ -158,10 +176,23 @@ header .container ul li a:hover::before {
 .strategy_bottom .strategy_bot_center img:hover{
     transform: translateY(-10px);
 }
+.strategy_bottom .strategy_item h5{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.strategy_bottom .strategy_item h5:hover{
+    color: #dc4f72;
+}
 /* feature */
 .feature_bot{
     width: 90%;
 }
+
+.feature_bot .feature_left ul li{
+    font-weight: 600;
+}
+
+
 .feature_bot .feature_left ul li i{
     height: 20px;
     width: 20px;

@@ -21,6 +21,15 @@
     color: #5a5a5a;
 }
 
+button.red {
+    border-color: #dc4f72;
+    color: #dc4f72;
+    transition: all 0.5s;
+}
+
+button.red:hover {
+    background-color: #dc4f72 !important;
+}
 
 /* header */
 header {
@@ -435,6 +444,14 @@ footer {
 
 .footer_top .footer_item ul li {
     padding: 8px 0;
+}
+
+.footer_top .footer_item ul li a {
+    transition: all 0.5s;
+}
+
+.footer_top .footer_item ul li a:hover{
+    color: #dc4f72 !important;
 }
 
 .footer_top .footer_item {

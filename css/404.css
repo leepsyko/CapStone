@@ -21,6 +21,16 @@
     color: #5a5a5a;
 }
 
+button.red {
+    border-color: #dc4f72;
+    color: #dc4f72;
+    transition: all 0.5s;
+}
+
+button.red:hover {
+    background-color: #dc4f72 !important;
+}
+
 
 /* header */
 header {
