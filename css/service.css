@@ -21,6 +21,23 @@
     color: #5a5a5a;
 }
 
+button.red {
+    margin-top: 30px;
+    padding: 15px 25px;
+    font-weight: 700;
+    color: white;
+    background-color: #dc4f72;
+    ;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+
+button:hover.red {
+    background-color: #D62F58;
+}
+
 
 /* header */
 header {
@@ -97,21 +114,6 @@ header .container ul li a:hover::before {
 }
 
 /* service  */
-.cap_service button {
-    margin-top: 30px;
-    padding: 15px 25px;
-    font-weight: 700;
-    color: white;
-    background-color: #dc4f72;
-    ;
-    border: none;
-    border-radius: 5px;
-    transition: all 0.5s;
-}
-
-.cap_service button:hover {
-    background-color: #D62F58;
-}
 
 
 .service_right .service_img {
@@ -150,6 +152,26 @@ header .container ul li a:hover::before {
 }
 .strategy_bottom .strategy_bot_center img{
     border-radius: 50%;
+    width: 60%;
+    transition: all 0.5s;
+}
+.strategy_bottom .strategy_bot_center img:hover{
+    transform: translateY(-10px);
+}
+/* feature */
+.feature_bot{
+    width: 90%;
+}
+.feature_bot .feature_left ul li i{
+    height: 20px;
+    width: 20px;
+    background-color: #FDF6F8;
+    color: #f55f8d;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+
 }
 
 
