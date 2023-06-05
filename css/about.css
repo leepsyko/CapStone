@@ -4,8 +4,87 @@
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
+/* header */
+
+.sub_title {
+    line-height: 20px;
+    color: #dc4f72;
+    margin: 0 0;
+    font-weight: bold;
+}
+
+.sub_content {
+    font-size: 16px;
+    color: #5a5a5a;
+}
 
 
+header {
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
+    /* z-index: 99999; */
+}
+
+#search_header {
+    display: inline-block;
+    background: #F7F9FC;
+    color: gray;
+    border: 1px solid #d8dade;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+header .navbar-nav .nav-link.active, header .container .navbar .container-fluid .navbar-brand {
+    color: #dc4f72;
+}
+
+header .nav-item .nav-link {
+    color: #2c3038;
+}
+
+header .container ul li a {
+    position: relative;
+}
+
+
+header .container ul li a::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    width: 0;
+    height: 2.5px;
+    background-color: #dc4f72;
+    transition: all 0.5s;
+
+}
+
+header .container ul li a:hover::before {
+    width: 25px;
+    color: #dc4f72;
+}
+
+
+/* style for popup icon search */
+
+.modal.fade#popup_header .modal-content {
+    background-color: transparent;
+    border: none;
+}
+
+.modal.fade#popup_header .modal-content .modal-header {
+    border: none;
+
+}
+
+
+/* nav */
+.navbar {
+    padding: 15px 20px;
+    background: #f7f9fc;
+}
 
 .about1 .content .header_content {
     max-width: 750px;
@@ -31,7 +110,7 @@
     margin: 15px 0 35px 0;
 }
 
-.about1 .content .title .title_text ul li{
+.about1 .content .title .title_text ul li {
     font-size: 16px;
     line-height: 30px;
     display: flex;
@@ -50,8 +129,8 @@
 }
 
 .about1 .content .title .title_text ul li p {
-    font-weight:600 ;
-    
+    font-weight: 600;
+
 }
 
 .about1 .content .title {
@@ -82,14 +161,14 @@
     display: block;
 }
 
-.about2 .container .history .content  {
+.about2 .container .history .content {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 .about2 .container .history .content_item .item {
-   width: 363px;
+    width: 363px;
 }
 
 .about2 .container .history .content_item .item h5 {
@@ -121,7 +200,7 @@
 }
 
 .feature .container .header h3 {
-    color:#2c3038;
+    color: #2c3038;
     font-size: 46px;
     line-height: 1;
     font-weight: 700;
@@ -153,6 +232,112 @@
     border-radius: 100%;
     color: #fff;
     font-size: 26px;
-    background-color: #dc4f72; 
+    background-color: #dc4f72;
 }
 
+/* solution */
+.solution {
+    display: block;
+
+}
+
+.solution .solution_title .sub_title {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #dc4f72;
+    margin-bottom: 5px;
+}
+
+.title h3 {
+    color: #2c3038;
+    font-size: 46px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.loremsl {
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 22.5px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video img {
+    width: 700px;
+    transform: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+.video img:hover {
+    transform: translateY(-20px);
+}
+
+.button .btn {
+    width: 220px;
+    height: 60px;
+    background-color: #d62f58;
+}
+
+.slick-content  .col img {
+   width: 287px;
+   height: 107px;
+   opacity: 0.4;
+}
+
+.slick-content  .col img:hover {
+    transition: all 0.6s;
+    opacity: 1;
+}
+
+/* member */
+
+.member {
+    background-color:#f7f9fc ;
+}
+
+.member .member_title {
+    text-align: center;
+    margin: 50px 0;
+}
+
+
+.member .member_title .sub_title h6 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #dc4f72;
+    margin-bottom: 5px;
+}
+
+.member .member_title h3 {
+    margin: 10px 0;
+    color: #2c3038;
+    font-size: 46px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.member .member_title .loremmb {
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 22.5px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+
+
+.member_item .team_info .info_title {
+    padding: 16px;
+    background: #fff;
+    border-radius: 0 0 6px 6px;
+    border: 1px solid #eee;
+    border-top: none;
+    margin-top: -6px;
+}
