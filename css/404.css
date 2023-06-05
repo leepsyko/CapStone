@@ -82,9 +82,58 @@ header .container ul li a:hover::before {
 
 }
 
+.dropdown-item.active {
+    text-decoration: none;
+    background-color: transparent;
+}
 
+/* 404  */
+.cap_404 {
+    margin-top: 90px;
+    padding: 50px 0;
+}
 
+.cap_404 h1 {
+    font-size: 100px;
+    color: #dc4f72;
+}
 
+.cap_404 div h1 i {
+    font-size: 90px;
+}
+
+.cap_404 div input {
+    border: 1px solid #dc4f72;
+    background-color: #F7F9FC;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.cap_404 .container form button {
+    /* margin-top: 30px; */
+    padding: 14px 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #dc4f72;
+    border: none;
+    border-radius: 5px;
+}
+
+.cap_404 div>button {
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+.cap_404 div>button a {
+    color: black;
+    transition: all 0.5s;
+}
+
+.cap_404 div>button:hover a {
+    color: #dc4f72;
+}
 
 
 
@@ -173,7 +222,7 @@ footer {
 
 /* back to top */
 
-.top_up a{
+.top_up a {
     width: 50px;
     height: 50px;
     background: #f55f8d;
@@ -189,22 +238,22 @@ footer {
     box-shadow: -4px 4px 24px -10px #f55f8d;
     opacity: 0;
     /* visibility: visible; */
-  }
-  
-  
-  .top_up{
+}
+
+
+.top_up {
     position: relative;
-  }
-  
-  .top_up .cd-top--is-visible {
+}
+
+.top_up .cd-top--is-visible {
     visibility: visible;
     opacity: 1;
-  }
-  
-  .cd-top--fade-out { 
+}
+
+.cd-top--fade-out {
     opacity: .5;
-  }
-  
+}
+
 
 
 
