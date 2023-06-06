@@ -421,7 +421,7 @@ footer {
 .dark .cap_strategy h1, .dark .cap_strategy h5{
     color: #d8dade;
 }
-.dark .strategy_bottom .strategy_bot_left .strategy_number span,.strategy_bottom .strategy_bot_right .strategy_number span {
+.dark .strategy_bottom .strategy_bot_left .strategy_number span,.dark .strategy_bottom .strategy_bot_right .strategy_number span {
     box-shadow: none ;
     background-color: #131617;
 }
