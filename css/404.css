@@ -51,7 +51,7 @@ header {
 }
 
 header .navbar-nav .nav-link.active, header .container .navbar .container-fluid .navbar-brand {
-    color: #dc4f72;
+    color: #dc4f72 !important;
 }
 
 header .nav-item .nav-link {
@@ -145,24 +145,6 @@ header .container ul li a:hover::before {
     color: #dc4f72;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 footer {
     background-color: #F7F9FC;
@@ -177,6 +159,13 @@ footer {
     padding: 8px 0;
 }
 
+.footer_top .footer_item ul li a {
+    transition: all 0.5s;
+}
+
+.footer_top .footer_item ul li a:hover {
+    color: #dc4f72 !important;
+}
 .footer_top .footer_item {
     width: 15%;
 }
@@ -226,7 +215,7 @@ footer {
 }
 
 .footer_bottom div a:hover {
-    color: #dc4f72;
+    color: #dc4f72 !important;
 }
 
 
@@ -287,11 +276,11 @@ footer {
 
 /* Dark Theme*/
 .dark#myBody {
-    background-color: black;
+    background-color: #131617;
 }
 
 .dark #switchButton {
-    background-color: black;
+    background-color: #131617;
     /* border: 1px solid white;  */
 }
 
@@ -308,4 +297,73 @@ footer {
     background-color: black;
     color: white;
     border: 1px solid white;
+}
+
+/* global theme dark */
+.dark .sub_content {
+    color: #aeaeae;
+}
+
+/* header */
+
+.dark header {
+    background-color: #131617 !important;
+}
+.dark .navbar-nav .dropdown-menu{
+    background-color:  #131617;
+}
+
+.dark header .container .container-fluid li a {
+    color: white;
+}
+
+.dark #search_header {
+    display: inline-block;
+    background: #171A1B;
+    color: gray;
+    border: 1px solid grey;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.dark #search_header:hover {
+    color: white;
+}
+
+/* 404 */
+.dark .cap_404 h2,.dark .cap_404 a{
+    color: #d8dade;
+}
+
+
+
+/* footer */
+
+.dark footer {
+    background-color: #191C1D;
+}
+
+.dark .footer_top .footer_item h4 {
+    color: #d8dade;
+}
+
+.dark .footer_top .footer_item:nth-of-type(4) div {
+    background-color: #131617 !important;
+}
+
+.dark .footer_top .footer_item:nth-of-type(4) div h3 {
+    color: #d8dade;
+}
+
+.dark .footer_top .footer_item:nth-of-type(4) div input {
+    background-color: #191C1D;
+}
+
+
+.dark .footer_bottom div a {
+    color: #d8dade;
 }
