@@ -1,38 +1,475 @@
-<div class="accordion" id="accordionPanelsStayOpenExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-          Accordion Item #1
-        </button>
-      </h2>
-      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-        <div class="accordion-body">
-          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- icon teb -->
+  <link rel="shortcut icon" href="./img/readicon.svg" type="image/x-icon" />
+
+  <!-- FontAwesome 6.2.0 CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+
+
+  <!-- font nunito -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <!-- my css -->
+  <link rel="stylesheet" href="./css/service.css">k
+
+</head>
+
+<body id="myBody">
+
+   <!-- header -->
+    <header class="fixed-top bg-white">
+      <!-- place navbar here -->
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-lightx py-3">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-3" href="#">
+              <i class="fa-regular fa-handshake"></i> Masterwork
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link   active" href="./service.html">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Blog Posts</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Landing Page</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./404.html">404 Page</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Contact</a>
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="mx-3"
+                id="search_header"
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#popup_header"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+              <button
+                type="button"
+                class="white btn btn-outline-danger mx-3 py-3 px-4 fw-bold"
+              >
+                SCHEDULE A DEMO
+              </button>
+              <button
+                class="btn"
+                id="switchButton"
+                title="Click to switch theme"
+              >
+                <i class="far fa-moon"></i>
+                <i class="far fa-sun"></i>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  <main>
+    <!-- next page home -->
+    <div class="nextpage">
+      <div class="container ">
+        <p class="m-0"><a href="./index.html" rel="nofollow">Home</a>&nbsp;&nbsp;»&nbsp;&nbsp;Services page</p>
+      </div>
+    </div>
+    <!-- our service -->
+    <div class="cap_service py-5">
+      <div class="container">
+        <div class="service_top  text-center">
+          <h1 class="fw-bolder ">Our Services</h1>
+        </div>
+        <div class="service_bottom d-flex mt-5">
+          <div class="service_left w-50 text-left">
+            <h1 class="fw-semibold">Our Best Services</h1>
+            <p class="sub_content">Fusce fringilla tincidunt laoreet volutpat cras varius sit. metus vitae diam mauris.</p>
+            <p class="sub_content">
+              Sed in metus libero. Sed volutpat eget dui ut tempus. Fusce fringilla tincidunt laoreet Morbi ac metus vitae diam scelerisque malesuada eget eu mauris. Cras varius lorem ac velit pharetra, non scelerisque mi vulputate. Phasellus bibendum.
+            </p>
+            <button class="red">READ MORE</button>
+          </div>
+          <div class="service_right w-50 d-grid">
+           <div class="row">
+            <div class="service_item col-6 p-4">
+              <div class="service_img">
+                <img src="./img/service-icon1.png" alt="">
+              </div>
+              <div class="service_content">
+                <h3 class="fs-5 fw-bold mt-2">Concept & Strategy</h3>
+                <p class="sub_content">
+                  Lorem ipsum dolor sit amet consectetur elit. Inventore, eius!
+                </p>
+              </div>
+            </div>
+            <div class="service_item col-6 p-4">
+              <div class="service_img">
+                <img src="./img/s1.png" alt="">
+              </div>
+              <div class="service_content">
+                <h3 class="fs-5 fw-bold mt-2">Interactive Business</h3>
+                <p class="sub_content">
+                  Lorem ipsum dolor sit amet consectetur elit. Inventore, eius!
+                </p>
+              </div>
+            </div>
+            <div class="service_item col-6 p-4">
+              <div class="service_img">
+                <img src="./img/service-icon3.png" alt="">
+              </div>
+              <div class="service_content">
+                <h3 class="fs-5 fw-bold mt-2">Financial Institution</h3>
+                <p class="sub_content">
+                  Lorem ipsum dolor sit amet consectetur elit. Inventore, eius!
+                </p>
+              </div>
+            </div>
+            <div class="service_item col-6 p-4">
+              <div class="service_img">
+                <img src="./img/service-icon4.png" alt="">
+              </div>
+              <div class="service_content">
+                <h3 class="fs-5 fw-bold mt-2">Worldwide Access</h3>
+                <p class="sub_content">
+                  Lorem ipsum dolor sit amet consectetur elit. Inventore, eius!
+                </p>
+              </div>
+            </div>
+           </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-          Accordion Item #2
-        </button>
-      </h2>
-      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-        <div class="accordion-body">
-          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+
+    <!-- strategy -->
+   <div class="cap_strategy py-5">
+      <div class="container">
+        <div class="strategy_top w-50 mx-auto text-center py-4">
+          <p class="sub_title" >THE BEST PRODUCTS</p>
+          <h1 class="fw-bold">How we make your strategy business</h1>
+          <p class="sub_content">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+          </div>
+          <div class="strategy_bottom d-flex">
+            <div class="strategy_bot_left">
+              <div class="strategy_item d-flex">
+                <div class="strategy_number fw-bold"><span>1</span></div>
+                <div class="strategy_content">
+                  <h5 class="fw-bold">FULL SECURITY</h5>
+                  <p class="sub_content">Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur adipisicing elit.</p>
+                </div>
+              </div>
+              <div class="strategy_item d-flex">
+                <div class="strategy_number fw-bold"><span>2</span></div>
+                <div class="strategy_content">
+                  <h5 class="fw-bold">BEST PERFORMANCE</h5>
+                  <p class="sub_content">Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur adipisicing elit.</p>
+                </div>
+              </div>
+              <div class="strategy_item d-flex">
+                <div class="strategy_number fw-bold"><span>3</span></div>
+                <div class="strategy_content">
+                  <h5 class="fw-bold">CONCEPT & STRATEGY</h5>
+                  <p class="sub_content">Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+            <div class="strategy_bot_center text-center ">
+              <img src="./img/service-circle.jpg" alt="">
+            </div>
+            <div class="strategy_bot_right ">
+              <div class="strategy_item d-flex">
+                <div class="strategy_number fw-bold"><span>4</span></div>
+                <div class="strategy_content">
+                  <h5 class="fw-bold">WORLDWIDE ACCESS</h5>
+                  <p class="sub_content">Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur adipisicing elit.</p>
+                </div>
+              </div>
+              <div class="strategy_item d-flex">
+                <div class="strategy_number fw-bold"><span>5</span></div>
+                <div class="strategy_content">
+                  <h5 class="fw-bold">INTERACTIVE BUSINESS</h5>
+                  <p class="sub_content">Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur adipisicing elit.</p>
+                </div>
+              </div>
+              <div class="strategy_item d-flex">
+                <div class="strategy_number fw-bold"><span>6</span></div>
+                <div class="strategy_content">
+                  <h5 class="fw-bold">EMAILING</h5>
+                  <p class="sub_content">Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- features -->
+    <div class="cap_feature py-5">
+      <div class="container">
+        <div class="feature_top w-75 mx-auto text-center py-4">
+          <p class="sub_title">
+            FEATURED SERVICES
+          </p>
+          <h1>Some More Features</h1>
+          <p class="sub_content">
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+          </p>
+        </div>
+        <div class="feature_bot mx-auto d-grid">
+          <div class="row">
+            <div class="feature_left col-6 pe-5">
+              <h2 class="fw-bold fs-1">Connect people and ideas</h2>
+              <p class="sub_content">
+                Lorem ipsum dolor sit amet adipisicing elit. Consequuntur odio voluptatem tenetur consequatur adipisicing elit.
+              </p>
+              <ul class="list-unstyled">
+                <li>
+                  <i class="fa-sharp fa-solid fa-check me-4 mb-3"></i> Website Designing and Development
+  
+                </li>
+                <li>
+                  <i class="fa-sharp fa-solid fa-check me-4 mb-3"></i>  Android and iOs Apps Development
+  
+                </li>
+                <li>
+                  <i class="fa-sharp fa-solid fa-check me-4 mb-3"></i> Successfully Providing Business Solution from 20 years
+  
+                </li>
+                <li>
+                  <i class="fa-sharp fa-solid fa-check me-4"></i> Excellence Records
+  
+                </li>
+              </ul>
+              <button class="red">KNOW MORE</button>
+            </div>
+            <div class="feature_right p-5 col-6 pt-0 ">
+              <img src="./img/b2.jpg" alt="" class="w-100 rounded">
+            </div>
+            <div class="row">
+              <div class="feature_left p-5 col-6 pt-0">
+                <img src="./img/b2.jpg" alt="" class="w-100 rounded">
+              </div>
+              <div class="feature_right col-6 p-5 pt-0">
+                <h2 class="fw-bold fs-1">Work better together</h2>
+                <p class="sub_content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur consequatur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur consequatur adipisicing elit.
+                  <br><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur consequatur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur consequatur adipisicing elit.
+                </p>
+                <button class="red">KNOW MORE</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-          Accordion Item #3
-        </button>
-      </h2>
-      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-        <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+  </main>
+  <footer class="py-5">
+    <!-- place footer here -->
+    <div class="container">
+      <div class="footer_top d-flex gap-5">
+        <div class="footer_item">
+          <h4 class="mb-4 fw-bold fs-5">Meta</h4>
+
+          <ul>
+            <li><a href="#" class="text-decoration-none text-muted">Log In</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Entries Feed</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Comments Feed</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">WordPress.Org</a></li>
+          </ul>
         </div>
+        <div class="footer_item">
+          <h4 class="mb-4 fw-bold fs-5">Categories</h4>
+
+          <ul>
+            <li><a href="#" class="text-decoration-none text-muted">Business</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Design</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Industry</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Programming</a></li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <h4 class="mb-4 fw-bold fs-5">Archives</h4>
+
+          <ul>
+            <li><a href="#" class="text-decoration-none text-muted">March 2021</a></li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <h4 class="mb-4 fw-bold fs-5">Newsletter</h4>
+
+          <div class="bg-white py-5 px-4 rounded">
+            <h3>Get latest updates and offers.</h3>
+            <form action="" class="subscribe" method="post">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                required=""
+              />
+              <button type="submit">Go</button>
+            </form>
+            <p class="text-muted">Sign up for our latest news & articles. We won’t give you spam mails.</p>
+          </div>
+        </div>
+      </div>
+      <hr class="text-muted">
+      <div class="footer_bottom d-flex justify-content-between mt-5">
+        <p class="text-muted">© 2023 Masterwork. All Rights Reserved | WordPress Theme by W3Layouts.</p>
+        <div>
+          <a href="#" class="mx-3 "><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="mx-3 "><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="mx-3 "><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="mx-3"><i class="fa-brands fa-google-plus-g"></i></i></a>
+          <a href="#" class="mx-3"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- button back To Top -->
+ <div class="top_up">
+  <a href="#" class="cd-top text-replace js-cd-top"><i class=" fa fa-arrow-up"></i> </a>
+</div>
+
+<!-- popup modal  -->
+<div
+class="modal fade"
+id="popup_header"
+tabindex="-1"
+aria-labelledby="exampleModalLabel"
+aria-hidden="true"
+>
+<div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content">
+    <div class="modal-header">
+      <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="modal-body">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control px-4"
+          placeholder="Enter Keyword"
+          aria-label="Recipient's username"
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn bg-danger text-white px-4 py-3"
+          type="button"
+          id="button-addon2"
+        >
+          Search
+        </button>
       </div>
     </div>
   </div>
+</div>
+</div>
+
+
+
+
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <!-- jquery  -->
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+  integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+  integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<!-- back to top -->
+<script src="./js/back-to-top-master/assets/js/util.js"></script>
+<script src="./js/back-to-top-master/assets/js/main.js"></script>
+
+<!-- theme dark and light js -->
+<script src="./js/index.js"></script>
+</body>
+</body>
+
+</html>
