@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BLOG PAGE 3</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- icon teb -->
+    <link rel="shortcut icon" href="./img/readicon.svg" type="image/x-icon" />
+
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+ 
+
+    <!-- font nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- OWL CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- my css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- link css blogpost  -->
+    <link rel="stylesheet" href="./css/blogpost.css" />
+
+  </head>
+
+
+
+
+
+  <body id="myBody">
+    <!-- header -->
+    <header class="fixed-top bg-white">
+      <!-- place navbar here -->
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-lightx py-3">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-3" href="#">
+              <i class="fa-regular fa-handshake"></i> Masterwork
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./service.html">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link  active dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item nav-link active" href="">Blog Posts</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Landing Page</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./404.html">404 Page</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Contact</a>
+                </li>
+              </ul>`
+              <a
+                href="#"
+                class="mx-3"
+                id="search_header"
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#popup_header"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+              <button
+                type="button"
+                class=" red btn btn-outline-danger mx-3 py-3 px-4 fw-bold"
+              >
+                SCHEDULE A DEMO
+              </button>
+              <button
+                class="btn"
+                id="switchButton"
+                title="Click to switch theme"
+              >
+                <i class="far fa-moon"></i>
+                <i class="far fa-sun"></i>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+  
+      <!-- BLOG  -->
+      <div class="blog_carousel">
+        <div class="container">
+          <div class="back_home">
+            <a href="./index.html" class="back_home">Home</a>
+          </div>
+          <div class="blog_content">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="blog_box d-flex">
+                    <div class="blog_left">
+                      <img src="./img/b1.jpg" class="d-block w-100" alt="..." />
+                      <p>1 March, 2001</p>
+                    </div>
+                    <div class="blog_right">
+                      <div class="blog_text">
+                        <span>
+                          <a href="" class="">Business</a>
+                        </span>
+                        <h1>
+                          <a href="">Hello world!</a>
+                        </h1>
+                        <p>
+                          <a href="">Read More</a>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="blog_box d-flex">
+                    <div class="blog_left">
+                      <img src="./img/b2.jpg" class="d-block w-100" alt="..." />
+                      <p>1 March, 2001</p>
+                    </div>
+                    <div class="blog_right">
+                      <div class="blog_text">
+                        <span>
+                          <a href="" class="">Industry</a>
+                        </span>
+                        <h1>
+                          <a href="">Corporate, Business & Digital Agency</a>
+                        </h1>
+                        <p>
+                          <a href="">Read More</a>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="blog_box d-flex">
+                    <div class="blog_left">
+                      <img src="./img/b3.jpg" class="d-block w-100" alt="..." />
+                      <p>1 March, 2001</p>
+                    </div>
+                    <div class="blog_right">
+                      <div class="blog_text">
+                        <span>
+                          <a href="" class="">Business</a>
+                        </span>
+                        <h1>
+                          <a href="">The Best Choice For Your Successful Business!</a>
+                        </h1>
+                        <p>
+                          <a href="">Read More</a>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="blog_box d-flex">
+                    <div class="blog_left">
+                      <img src="./img/b4.jpg" class="d-block w-100" alt="..." />
+                      <p>1 March, 2001</p>
+                    </div>
+                    <div class="blog_right">
+                      <div class="blog_text">
+                        <span>
+                          <a href="" class="">Design</a>
+                        </span>
+                        <h1>
+                          <a href="">Corporate, Business & Digital Agency</a>
+                        </h1>
+                        <p>
+                          <a href="">Read More</a>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+         
+          </div>
+        </div>
+      </div>
+  
+      <!-- MENU  -->
+      <div class="menu">
+        <div class="container">
+          <div class="menu_content d-grid ">
+            <div class="row">
+              <div class="menu_box col-4 h-100">
+                <div class="menu_img">
+                  <img src="./img/b7.jpg" alt="">
+                  <p>1 March, 2001</p>
+                </div>
+                <div class="menu_text">
+                  <span>
+                    <a href="" class="text-decoration-none">Design</a>
+                  </span>
+                  <h1>
+                    <a href="" class="text-decoration-none fs-5 pe-4">Hello world</a>
+                  </h1>
+                  <hr>
+                  <p class="m-0 pb-3">
+                    <a href="" class="text-decoration-none">Read More</a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav aria-label="Page navigation example" class="page_menu">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a href="./blogpost2.html" class="prev">Prev</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="./blog.html">1</a></li>
+          <li class="page-item"><a class="page-link " href="./blogpost2.html">2</a></li>
+          <li class="page-item"><a class="page-link selected" ">3</a></li>
+        </ul>
+      </nav>
+  
+  
+    </main>
+
+    <footer class="py-5">
+      <!-- place footer here -->
+      <div class="container">
+        <div class="footer_top d-flex gap-5">
+          <div class="footer_item">
+            <h4 class="mb-4 fw-bold fs-5">Meta</h4>
+
+            <ul>
+              <li><a href="#" class="text-decoration-none text-muted">Log In</a></li>
+              <li><a href="#" class="text-decoration-none text-muted">Entries Feed</a></li>
+              <li><a href="#" class="text-decoration-none text-muted">Comments Feed</a></li>
+              <li><a href="#" class="text-decoration-none text-muted">WordPress.Org</a></li>
+            </ul>
+          </div>
+          <div class="footer_item">
+            <h4 class="mb-4 fw-bold fs-5">Categories</h4>
+
+            <ul>
+              <li><a href="#" class="text-decoration-none text-muted">Business</a></li>
+              <li><a href="#" class="text-decoration-none text-muted">Design</a></li>
+              <li><a href="#" class="text-decoration-none text-muted">Industry</a></li>
+              <li><a href="#" class="text-decoration-none text-muted">Programming</a></li>
+            </ul>
+          </div>
+          <div class="footer_item">
+            <h4 class="mb-4 fw-bold fs-5">Archives</h4>
+
+            <ul>
+              <li><a href="#" class="text-decoration-none text-muted">March 2021</a></li>
+            </ul>
+          </div>
+          <div class="footer_item">
+            <h4 class="mb-4 fw-bold fs-5">Newsletter</h4>
+
+            <div class="bg-white py-5 px-4 rounded">
+              <h3>Get latest updates and offers.</h3>
+              <form action="" class="subscribe" method="post">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email Address"
+                  required=""
+                />
+                <button type="submit">Go</button>
+              </form>
+              <p class="text-muted">Sign up for our latest news & articles. We won’t give you spam mails.</p>
+            </div>
+          </div>
+        </div>
+        <hr class="text-muted">
+        <div class="footer_bottom d-flex justify-content-between mt-5">
+          <p class="text-muted">© 2023 Masterwork. All Rights Reserved | WordPress Theme by W3Layouts.</p>
+          <div>
+            <a href="#" class="mx-3 "><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="mx-3 "><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="mx-3 "><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="mx-3"><i class="fa-brands fa-google-plus-g"></i></i></a>
+            <a href="#" class="mx-3"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+ <!-- button back To Top -->
+ <div class="top_up">
+  <a href="#" class="cd-top text-replace js-cd-top"><i class=" fa fa-arrow-up"></i> </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <!-- popup modal  -->
+    <div
+      class="modal fade"
+      id="popup_header"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control px-4"
+                placeholder="Enter Keyword"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn bg-danger text-white px-4 py-3"
+                type="button"
+                id="button-addon2"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jquery  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+ 
+  <!-- back to top -->
+<script src="./js/back-to-top-master/assets/js/util.js"></script>
+<script src="./js/back-to-top-master/assets/js/main.js"></script>
+
+
+    <!-- theme dark and light js -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>

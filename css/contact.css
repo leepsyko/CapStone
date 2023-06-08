@@ -20,29 +20,15 @@
     font-size: 16px;
     color: #5a5a5a;
 }
-button.white{
-    border-color:#dc4f72 ;
+
+button.red {
+    border-color: #dc4f72;
     color: #dc4f72;
     transition: all 0.5s;
 }
-button.white:hover{
+
+button.red:hover {
     background-color: #dc4f72 !important;
-}
-button.red {
-    margin-top: 30px;
-    padding: 15px 25px;
-    font-weight: 700;
-    color: white;
-    background-color: #dc4f72;
-    ;
-    border: none;
-    border-radius: 5px;
-    transition: all 0.5s;
-}
-
-
-button:hover.red {
-    background-color: #D62F58;
 }
 
 
@@ -94,7 +80,6 @@ header .container ul li a:hover::before {
     color: #dc4f72;
 }
 
-
 /* style for popup icon search */
 
 .modal.fade#popup_header .modal-content {
@@ -107,11 +92,15 @@ header .container ul li a:hover::before {
 
 }
 
+.dropdown-item.active {
+    text-decoration: none;
+    background-color: transparent;
+}
 
 /* next page home */
 
 .nextpage {
-    margin-top: 60px;
+    margin-top: 90px;
     background-color: rgb(247, 247, 247);
     padding: 20px 0;
 }
@@ -121,100 +110,6 @@ header .container ul li a:hover::before {
     color: #f55f8d !important;
 }
 
-/* service  */
-
-
-.service_right .service_img {
-    height: 80px;
-    width: 80px;
-    line-height: 78px;
-    border-radius: 50%;
-    background-color: #F7F9FC;
-    text-align: center;
-    box-shadow: 1px 5px 20px rgb(204, 204, 204);
-    cursor: pointer;
-}
-.service_right .service_img img{
-    width: 40%;
-}
-
-.service_bottom .service_right h3{
-    transition: all 0.5s;
-    cursor: pointer;
-}
-.service_bottom .service_right h3:hover{
-    color: #dc4f72;
-}
-
-/* strategy */
-.cap_strategy{
-    background-color: #F7F9FC;
-}
-
-.strategy_bottom .strategy_bot_left,.strategy_bottom .strategy_bot_right{
-    width: 30%;
-}
-.strategy_bottom .strategy_bot_left .strategy_number span,.strategy_bottom .strategy_bot_right .strategy_number span {
-    font-size: 20px;
-    height: 40px;
-    width: 40px;
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    display: inline-block;
-    line-height: 40px;
-    text-align: center;
-    margin-right: 30px;
-    box-shadow: 0 0.5em 1em rgb(207, 207, 207) ;
-    color: #f55f8d;
-}
-.strategy_bottom .strategy_bot_center{
-    width: 40%;
-}
-.strategy_bottom .strategy_bot_center img{
-    border-radius: 50%;
-    width: 60%;
-    transition: all 0.5s;
-}
-.strategy_bottom .strategy_bot_center img:hover{
-    transform: translateY(-10px);
-}
-.strategy_bottom .strategy_item h5{
-    cursor: pointer;
-    transition: all 0.5s;
-}
-.strategy_bottom .strategy_item h5:hover{
-    color: #dc4f72;
-}
-/* feature */
-.feature_bot{
-    width: 90%;
-}
-
-.feature_bot .feature_left ul li{
-    font-weight: 600;
-}
-
-
-.feature_bot .feature_left ul li i{
-    height: 20px;
-    width: 20px;
-    background-color: #FDF6F8;
-    color: #f55f8d;
-    font-size: 10px;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 50%;
-
-}
-
-.cap_feature .feature_bot img{
-    transition: all 0.5s;
-
-}
-
-.cap_feature .feature_bot img:hover{
-    transform: translateY(-10px);
-}
 
 
 /* footer */
@@ -230,7 +125,6 @@ footer {
 .footer_top .footer_item ul li {
     padding: 8px 0;
 }
-
 
 .footer_top .footer_item ul li a {
     transition: all 0.5s;
@@ -407,43 +301,11 @@ footer {
     color: white;
 }
 
-/* next bage home */
-.dark .nextpage{
-    background-color:#191C1D ;
-}
-.dark .nextpage p{
+/* 404 */
+.dark .cap_404 h2,.dark .cap_404 a{
     color: #d8dade;
 }
-/* service */
 
-.dark .cap_service h1, .dark .cap_service h3{
-    color: #d8dade;
-}
-.dark .service_right .service_img {
-    background-color: #191C1D;
-    box-shadow: none;
-}
-
-/* strategy */
-.dark .cap_strategy{
-    background-color: #191C1D;
-}
-.dark .cap_strategy h1, .dark .cap_strategy h5{
-    color: #d8dade;
-}
-.dark .strategy_bottom .strategy_bot_left .strategy_number span,.dark .strategy_bottom .strategy_bot_right .strategy_number span {
-    box-shadow: none ;
-    background-color: #131617;
-}
-
-/* feature */
-.dark .cap_feature h1, .dark .cap_feature h2, .dark .cap_feature ul li {
-    color: #d8dade;
-}
-.dark .feature_bot .feature_left ul li i{
-    background-color: #191C1D;
-
-}
 
 
 /* footer */
