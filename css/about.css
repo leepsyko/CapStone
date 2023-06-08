@@ -100,6 +100,8 @@ header .container ul li a:hover::before {
     background: white;
 }
 
+/* about */
+
 .about1 {
     margin-top: 40px;
 }
@@ -331,12 +333,57 @@ header .container ul li a:hover::before {
 .slick-content .col img {
     width: 287px;
     height: 107px;
-    opacity: 0.4;
+    filter: grayscale(100%);
 }
 
 .slick-content .col img:hover {
     transition: all 0.6s;
-    opacity: 1;
+   filter: none;
+}
+
+/*  video trong solution */
+.video button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+}
+.btn:first-child:hover, :not(.btn-check)+.btn:hover{
+    background-color: transparent;
+    border: none;
+}
+
+.btn-primary:focus{
+    box-shadow: none;
+}
+.video div i {
+    color: #d62f58;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    animation: ripple 1s linear infinite;
+}
+/* popup của video */
+
+.modal.fade#playvideo{
+    background-color: rgba(0, 0, 0, 0.729);
+}
+.modal.fade#playvideo .modal-content {
+    background-color: transparent;
+    border: none;
+}
+
+.modal.fade#playvideo .modal-content .modal-header {
+    border: none;
+
+}
+.btn-close{
+    background: none;
 }
 
 /* member */
@@ -435,4 +482,22 @@ header .container ul li a:hover::before {
 
 .member_item .team_info:hover .info_title h3 {
     color: #d62f58;
+}
+
+
+
+
+
+
+
+
+/*  nút play trong video */
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.15), 0 0 0 10px rgba(255, 255, 255, 0.15), 0 0 0 20px rgba(255, 255, 255, 0.15);
+    }
+
+    100% {
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.15), 0 0 0 20px rgba(255, 255, 255, 0.15), 0 0 0 40px rgba(50, 100, 245, 0);
+    }
 }
