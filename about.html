@@ -358,6 +358,7 @@ aria-hidden="true"
 
       </section>
 
+      
       <!-- Solution -->
       <section class="solution">
         <div class="solution_content py-5">
@@ -366,14 +367,40 @@ aria-hidden="true"
               <div class="title text-center mx-auto">
                 <h6 class="sub_title">CREATIVE SOLUTIONS</h6>
                 <h3>Watch Our Two Minute Intro</h3>
-                <p class="loremsl">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis<br> dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+                <p class="loremsl">Vestibulum ante ipsum primis in faucibus orci
+                  luctus et ultrices posuere cubilia Curae; Nulla mollis<br>
+                  dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet
+                  mattis quam.
                 </p>
               </div>
-              <div class="video text-center m-5">
-                <img src="./img/b9.jpg" alt="">
+              <!-- video -->
+              <div class="video text-center m-5 position-relative">
+                <img src="./img/b9.jpg" alt="" class="w-100">
+                <div>
+                  <button type="button" class="btn btn-primary"
+                    data-bs-toggle="modal" data-bs-target="#playvideo">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                  </button>
+                </div>
               </div>
               <div class="button text-center">
                 <button type="button" class="btn btn-danger">REQUEST A QUOTE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- pop up video -->
+        <!-- Modal -->
+        <div class="modal fade" id="playvideo" tabindex="-1"
+          aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog text-center">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                  aria-label="Close"><i class="fa-solid fa-xmark text-white"></i></button>
+              </div>
+              <div class="modal-body">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/a5KYlHNKQB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -571,6 +598,8 @@ aria-hidden="true"
           </div>
         </div>
       </section>
+
+      
 
     </main>
     <footer>

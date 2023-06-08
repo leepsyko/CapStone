@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- GG Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- slick -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- fone bs -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- my css -->
+
+    <link rel="stylesheet" href="./css/contact.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- place navbar here -->
+      <header class="fixed-top bg-white">
+        <!-- place navbar here -->
+        <div class="container">
+          <nav class="navbar navbar-expand-lg  py-3">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold fs-3" href="#">
+                <i class="fa-regular fa-handshake"></i> Masterwork
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-end"
+                id="navbarNavDropdown"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Blog Posts</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Landing Page</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">404 Page</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Contact</a>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="mx-3"
+                  id="search_header"
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#popup_header"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <button
+                  type="button"
+                  class="btn btn-outline-danger mx-3 py-3 px-4 fw-bold"
+                >
+                  SCHEDULE A DEMO
+                </button>
+                <button
+                  class="btn"
+                  id="switchButton"
+                  title="Click to switch theme"
+                >
+                  <i class="far fa-moon"></i>
+                  <i class="far fa-sun"></i>
+                </button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div
+  class="modal fade"
+  id="popup_header"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+  >
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control px-4"
+            placeholder="Enter Keyword"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <button
+            class="btn bg-danger text-white px-4 py-3"
+            type="button"
+            id="button-addon2"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </header>
+    <main>
+        <!-- next page -->
+        <div class="nextpage">
+          <div class="container ">
+            <p class="m-0"><a href="./index.html" rel="nofollow">Home</a>&nbsp;&nbsp;»&nbsp;&nbsp;Services page</p>
+          </div>
+        </div>
+
+        <!-- Contact -->
+      <section class="contact py-5">
+        <div class="container py-md-3">
+          <div class="title mb-5 text-center">
+            <h2>Contact Us</h2>
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="./img/contact.jpg" alt="">
+              </div>
+              <div class="col-lg-6">
+                <div class="contact_form">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+
+    
+  </body>
+</html>
