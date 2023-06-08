@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
+
 /* header */
 
 .sub_title {
@@ -36,7 +37,8 @@ header {
     text-align: center;
 }
 
-header .navbar-nav .nav-link.active, header .container .navbar .container-fluid .navbar-brand {
+header .navbar-nav .nav-link.active,
+header .container .navbar .container-fluid .navbar-brand {
     color: #dc4f72;
 }
 
@@ -79,11 +81,27 @@ header .container ul li a:hover::before {
 
 }
 
+/* nextpage */
+.nextpage {
+    margin-top: 90px;
+    background-color: rgb(247, 247, 247);
+    padding: 20px 0;
+
+}
+
+.nextpage a {
+    text-decoration: none;
+    color: #f55f8d !important;
+}
 
 /* nav */
 .navbar {
     padding: 15px 20px;
-    background: #f7f9fc;
+    background: white;
+}
+
+.about1 {
+    margin-top: 40px;
 }
 
 .about1 .content .header_content {
@@ -223,6 +241,34 @@ header .container ul li a:hover::before {
     flex: none
 }
 
+.feature .feature_sub {
+    margin-top: -3em ;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s;
+}
+
+.feature .card-body:hover .feature_sub {
+    opacity: 1;
+    transform: scale(1);
+}
+.feature .card-body:hover .icon-holder {
+    transform: translateY(-80px);
+    
+}
+
+.feature .card-body .icon-holder {
+    margin-top: 70px;
+}
+
+.feature .card-body h5 {
+    transition: all 0.5s;
+}
+
+.feature .card-body:hover h5 {
+    transform: translateY(-60px);
+}
+
 .icon-holder {
     display: inline-block;
     width: 70px;
@@ -282,13 +328,13 @@ header .container ul li a:hover::before {
     background-color: #d62f58;
 }
 
-.slick-content  .col img {
-   width: 287px;
-   height: 107px;
-   opacity: 0.4;
+.slick-content .col img {
+    width: 287px;
+    height: 107px;
+    opacity: 0.4;
 }
 
-.slick-content  .col img:hover {
+.slick-content .col img:hover {
     transition: all 0.6s;
     opacity: 1;
 }
@@ -296,7 +342,7 @@ header .container ul li a:hover::before {
 /* member */
 
 .member {
-    background-color:#f7f9fc ;
+    background-color: #f7f9fc;
 }
 
 .member .member_title {
@@ -340,4 +386,53 @@ header .container ul li a:hover::before {
     border: 1px solid #eee;
     border-top: none;
     margin-top: -6px;
+}
+
+
+
+.member .team_info .info_title .social .facebook span {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: #3b5998;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 25px;
+}
+
+.member .team_info .info_title .social a span {
+    font-size: 12px;
+    line-height: 30px;
+    display: block;
+}
+
+.member .team_info .info_title .social .twitter span {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: #1da1f2;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 25px;
+    margin-left: 15px;
+}
+
+.member_item .team_info .img img {
+    border-radius: 10px 10px 0 0;
+}
+
+.member_item .team_info {
+    transition: all 0.5s;
+    border-radius: 10px;
+
+}
+
+.member_item .team_info:hover {
+    transform: translateY(-20px);
+}
+
+.member_item .team_info:hover .info_title h3 {
+    color: #d62f58;
 }
