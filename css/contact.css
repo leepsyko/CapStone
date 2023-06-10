@@ -95,6 +95,15 @@ header .container ul li a:hover::before {
 }
 
 /* contact */
+.row img.img_contact {
+    transition: all 0.5s;
+    transform: 0;
+}
+
+.row img.img_contact:hover {
+    transform: translateY(-20px);
+}
+
 
 .contact .title h2 {
     color: #2c3038;
@@ -102,5 +111,155 @@ header .container ul li a:hover::before {
     line-height: 55px;
     font-weight: 800;
 }
+
+.contact .contact_form {
+
+    height: 700px;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow:  0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+    position: relative;
+    left: -40px;
 }
 
+.form_input .main_input .input_name {
+    height: 70px;
+    -webkit-appearance: none;
+    border-radius: 6px;
+    color: #2c3038;
+    font-weight: 600;
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #f8f9fa;
+    background: #f7f9fc;
+}
+
+.form_input .main_input .input_massage {
+    height: 150px;
+    -webkit-appearance: none;
+    border-radius: 6px;
+    color: #2c3038;
+    font-weight: 600;
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #f8f9fa;
+    background: #f7f9fc;
+}
+
+.form_input .main_input input.input_name:focus {
+    border-color: #f55f8d ;
+    border:1px solid;
+    
+}
+
+.send .btn {
+    margin-left: 320px;
+    width: 150px;
+    height: 60px;
+    background-color: #d62f58;
+}
+
+/* phone */
+
+.phone .phone_item .card_phone {
+    width: 330px;
+    height: 240px;
+    padding-top: 30px;
+    
+}
+
+
+
+.phone {
+    background-color: #f7f9fc;
+    
+}
+
+
+
+.phone .header_phone h6 {
+    margin-top: 30px;
+    
+}
+
+.phone .header_phone h3 {
+    margin-top: 20px;
+    color: #2c3038;
+    font-size: 46px;
+    line-height: 1;
+    font-weight: 700;
+}
+.phone .header_phone .loremp {
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 22.5px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.phone .phone_item .card_phone .icon {
+    margin: 0 auto;
+    width: 60px;
+    
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 60px;
+    background: rgba(220, 79, 114, 0.1);
+}
+
+.phone .phone_item .card_phone .icon span {
+    font-size: 20px;
+    color: #dc4f72;
+    line-height: 60px;
+}
+
+.phone_sub {
+    margin-top: 30px;
+}
+
+.phone_sub .card_title {
+    font-size: 20px;
+    color: #2c3038;
+    margin: 0px 0 10px 0;
+    font-weight: 700;
+}
+
+.phone_text {
+    font-size: 18px;
+    color: #5a5a5a;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.col {
+    transition: all 0.5s;
+
+}
+
+.col:hover {
+    transform: translateY(-20px);
+}
+
+.phone_sub p a {
+    font-size: 18px;
+    color:#5a5a5a;
+    line-height: 28px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.phone_sub p a:hover {
+    display: block;
+    color: #dc4f72;
+    text-decoration: underline;
+}
