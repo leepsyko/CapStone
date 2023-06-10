@@ -83,6 +83,17 @@ header .container ul li a:hover::before {
     background-color: transparent;
 }
 
+/* style for popup icon search */
+
+.modal.fade#popup_header .modal-content {
+    background-color: transparent;
+    border: none;
+}
+
+.modal.fade#popup_header .modal-content .modal-header {
+    border: none;
+
+}
 /* CAROUSEL */
 
 .cap_carousel {
