@@ -151,9 +151,7 @@ header .container ul li a:hover::before {
     background-color: #F7F9FC;
 }
 
-.strategy_bottom .strategy_bot_left,.strategy_bottom .strategy_bot_right{
-    width: 30%;
-}
+
 .strategy_bottom .strategy_bot_left .strategy_number span,.strategy_bottom .strategy_bot_right .strategy_number span {
     font-size: 20px;
     height: 40px;
@@ -167,12 +165,10 @@ header .container ul li a:hover::before {
     box-shadow: 0 0.5em 1em rgb(207, 207, 207) ;
     color: #f55f8d;
 }
-.strategy_bottom .strategy_bot_center{
-    width: 40%;
-}
+
 .strategy_bottom .strategy_bot_center img{
     border-radius: 50%;
-    width: 60%;
+    width: 70%;
     transition: all 0.5s;
 }
 .strategy_bottom .strategy_bot_center img:hover{

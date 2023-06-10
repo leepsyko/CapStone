@@ -140,9 +140,8 @@ header .container ul li a:hover::before {
     background: #f7f9fc;
 }
 
-.form_input .main_input input.input_name:focus {
-    border-color: #f55f8d ;
-    border:1px solid;
+.form_input .main_input input.input_name:focus-visible,.form_input .main_input input.input_name:focus {
+    border:1px solid #f55f8d;
     
 }
 

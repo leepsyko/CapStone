@@ -78,6 +78,7 @@ header .container ul li a:hover::before {
     width: 25px;
     color: #dc4f72;
 }
+
 .dropdown-item.active {
     text-decoration: none;
     background-color: transparent;
@@ -94,14 +95,15 @@ header .container ul li a:hover::before {
     border: none;
 
 }
+
 /* CAROUSEL */
 
 .cap_carousel {
     background-image: url(../img/banner.jpg);
     background-attachment: fixed;
+    background-size: 100%;
     position: relative;
-    margin-top: 90px;
-    background-position: right;
+    margin-top: 80px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -119,10 +121,6 @@ header .container ul li a:hover::before {
 .cap_carousel .container {
     padding: 0 25px;
     margin: auto;
-}
-
-.cap_left, .cap_right {
-    width: 50%;
 }
 
 .cap_left {
@@ -162,6 +160,7 @@ header .container ul li a:hover::before {
     background-color: #F7F9FC;
     border-radius: 5px;
     transition: all 0.5s;
+    margin: 0 10px;
 }
 
 .tools_item:hover {
@@ -188,9 +187,6 @@ header .container ul li a:hover::before {
     padding-bottom: 100px;
 }
 
-.infor_top_left, .infor_top_right {
-    width: 50%;
-}
 
 .infor_top_right img {
     width: 80%;
@@ -277,9 +273,7 @@ header .container ul li a:hover::before {
     background: linear-gradient(0.25turn, #000000c7, #00000056);
 }
 
-.cap_news .container div {
-    width: 40%;
-}
+
 
 .cap_news .container div h2 {
     font-size: 30px;
@@ -602,9 +596,11 @@ footer {
 .dark header {
     background-color: #131617 !important;
 }
-.dark .navbar-nav .dropdown-menu{
-    background-color:  #131617;
+
+.dark .navbar-nav .dropdown-menu {
+    background-color: #131617;
 }
+
 .dark header .container .container-fluid li a {
     color: white;
 }
@@ -626,10 +622,11 @@ footer {
     color: white;
 }
 
-.dark .navbar-toggler-icon{
+.dark .navbar-toggler-icon {
     background-color: rgba(255, 255, 255, 0.384);
     border-radius: 2px;
 }
+
 /* carousel */
 
 

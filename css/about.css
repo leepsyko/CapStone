@@ -45,7 +45,7 @@ button.red {
 
 
 button:hover.red {
-    background-color: #D62F58;
+    background-color: #D62F58 !important;
 }
 
 /* header */
@@ -367,7 +367,7 @@ header .container ul li a:hover::before {
 }
 
 /*  video trong solution */
-.video button{
+.solution .video button{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -375,15 +375,15 @@ header .container ul li a:hover::before {
     background-color: transparent;
     border: none;
 }
-.btn:first-child:hover, :not(.btn-check)+.btn:hover{
-    background-color: transparent;
+.solution .btn:first-child:hover, :not(.btn-check)+.btn:hover{
+    /* background-color: transparent; */
     border: none;
 }
 
-.btn-primary:focus{
+.solution .btn-primary:focus{
     box-shadow: none;
 }
-.video div i {
+.solution .video div i {
     color: #d62f58;
     height: 60px;
     width: 60px;
@@ -493,6 +493,10 @@ header .container ul li a:hover::before {
 
 .member_item .team_info .img img {
     border-radius: 10px 10px 0 0;
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
 .member_item .team_info {
