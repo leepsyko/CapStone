@@ -186,7 +186,7 @@
   font-weight: 600;
 }
 
-.page-item:hover a:hover {
+.page-item:hover {
   color: #dc4f72;
   background-color: white;
   border: 1px solid #dc4f72;
@@ -205,4 +205,47 @@
 .selected {
   color: #dc4f72 !important;
   border-color: #dc4f72;
+}
+
+/* dark theme */
+
+/* blog-carousel  */
+
+.dark .blog_carousel{
+  background-color: #191C1D;
+}
+
+.dark .blog_right {
+  background-color: #131617;
+}
+
+.dark .blog_right h1 a {
+  color: white;
+}
+
+
+/* MENU  */
+.dark .menu {
+  background-color: #131617;
+}
+
+.dark .menu_text {
+  background-color: #131617;
+
+}
+
+.dark .menu_box{
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+
+.dark .menu_text h1 a{
+  color: white !important;
+}
+
+
+.dark .prev,.dark .page-link{
+  background-color: #131617;
+  color: white;
 }

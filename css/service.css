@@ -402,6 +402,9 @@ footer {
 .dark #search_header:hover {
     color: white;
 }
+.dark .dropdown-item:hover {
+    background: #131617;
+}
 
 /* next bage home */
 .dark .nextpage{

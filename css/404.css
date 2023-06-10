@@ -333,6 +333,9 @@ footer {
 .dark #search_header:hover {
     color: white;
 }
+.dark .dropdown-item:hover {
+    background: #131617;
+}
 
 /* 404 */
 .dark .cap_404 h2,.dark .cap_404 a{

@@ -627,6 +627,10 @@ footer {
     border-radius: 2px;
 }
 
+.dark .dropdown-item:hover {
+    background: #131617;
+}
+
 /* carousel */
 
 

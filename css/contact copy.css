@@ -52,6 +52,7 @@ header .container ul li a:hover::before {
     width: 25px;
     color: #dc4f72;
 }
+
 .dropdown-item.active {
     text-decoration: none;
     background-color: transparent;
@@ -68,6 +69,7 @@ header .container ul li a:hover::before {
     border: none;
 
 }
+
 /* nextpage */
 .nextpage {
     margin-top: 90px;
@@ -105,7 +107,7 @@ header .container ul li a:hover::before {
     background: #fff;
     padding: 2rem;
     border-radius: 10px;
-    box-shadow:  0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
     position: relative;
     left: -40px;
 }
@@ -140,9 +142,9 @@ header .container ul li a:hover::before {
     background: #f7f9fc;
 }
 
-.form_input .main_input input.input_name:focus-visible,.form_input .main_input input.input_name:focus {
-    border:1px solid #f55f8d;
-    
+.form_input .main_input input.input_name:focus-visible, .form_input .main_input input.input_name:focus {
+    border: 1px solid #f55f8d;
+
 }
 
 .send .btn {
@@ -158,21 +160,21 @@ header .container ul li a:hover::before {
     width: 330px;
     height: 240px;
     padding-top: 30px;
-    
+
 }
 
 
 
 .phone {
     background-color: #f7f9fc;
-    
+
 }
 
 
 
 .phone .header_phone h6 {
     margin-top: 30px;
-    
+
 }
 
 .phone .header_phone h3 {
@@ -182,6 +184,7 @@ header .container ul li a:hover::before {
     line-height: 1;
     font-weight: 700;
 }
+
 .phone .header_phone .loremp {
     color: #5a5a5a;
     font-size: 16px;
@@ -195,7 +198,7 @@ header .container ul li a:hover::before {
 .phone .phone_item .card_phone .icon {
     margin: 0 auto;
     width: 60px;
-    
+
     height: 60px;
     text-align: center;
     border-radius: 50%;
@@ -238,7 +241,94 @@ header .container ul li a:hover::before {
 
 .phone_sub p a {
     font-size: 18px;
-    color:#5a5a5a;
+    color: #5a5a5a;
+    line-height: 28px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.phone_sub p a:hover {
+    display: block;
+    color: #dc4f72;
+    text-decoration: underline;
+}
+
+/* dark theme */
+
+/* next bage home */
+.dark .nextpage {
+    background-color: #191C1D;
+}
+
+.dark .nextpage p {
+    color: #d8dade;
+}
+
+/* contact */
+
+.dark .contact .title h2 {
+    color: white
+}
+
+.dark .contact .contact_form {
+    background: #131617;
+}
+
+.dark .contact_form h3,.dark .contact_form p {
+   color: white;
+}
+.dark .contact_form p {
+    color: gray;
+}
+
+
+.dark .form_input .main_input input{
+    background-color: #191C1D;
+    border-color: #2c3038;
+}
+
+/* phone */
+
+.dark .phone {
+    background-color: #191C1D;
+}
+
+
+.dark .phone .header_phone h3 {
+    color: white;
+}
+
+.dark .phone .header_phone .loremp {
+    color: gray
+}
+
+.dark .phone .phone_item .card{
+    border: none;
+}
+
+.dark .phone_sub .card_title {
+    color: white;
+}
+
+.phone_text {
+    font-size: 18px;
+    color: #5a5a5a;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.col {
+    transition: all 0.5s;
+
+}
+
+.col:hover {
+    transform: translateY(-20px);
+}
+
+.phone_sub p a {
+    font-size: 18px;
+    color: #5a5a5a;
     line-height: 28px;
     font-weight: 600;
     transition: all 0.5s;

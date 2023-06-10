@@ -163,11 +163,13 @@ header .container ul li a:hover::before {
 
 .about1 .content .title .title_text ul li i {
     height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
     color: #dc4f72;
     margin-right: 12px;
     background: rgba(220, 79, 114, 0.1);
     font-size: 10px;
-    padding: 8px;
     border-radius: 50%;
     display: inline-block;
     opacity: 0.5;
@@ -269,7 +271,7 @@ header .container ul li a:hover::before {
 }
 
 .feature .feature_sub {
-    margin-top: -3em ;
+    margin-top: -3em;
     opacity: 0;
     transform: scale(0);
     transition: all 0.5s;
@@ -279,9 +281,10 @@ header .container ul li a:hover::before {
     opacity: 1;
     transform: scale(1);
 }
+
 .feature .card-body:hover .icon-holder {
     transform: translateY(-80px);
-    
+
 }
 
 .feature .card-body .icon-holder {
@@ -363,11 +366,11 @@ header .container ul li a:hover::before {
 
 .slick-content .col img:hover {
     transition: all 0.6s;
-   filter: none;
+    filter: none;
 }
 
 /*  video trong solution */
-.solution .video button{
+.solution .video button {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -375,14 +378,16 @@ header .container ul li a:hover::before {
     background-color: transparent;
     border: none;
 }
-.solution .btn:first-child:hover, :not(.btn-check)+.btn:hover{
+
+.solution .btn:first-child:hover, :not(.btn-check)+.btn:hover {
     /* background-color: transparent; */
     border: none;
 }
 
-.solution .btn-primary:focus{
+.solution .btn-primary:focus {
     box-shadow: none;
 }
+
 .solution .video div i {
     color: #d62f58;
     height: 60px;
@@ -393,11 +398,13 @@ header .container ul li a:hover::before {
     border-radius: 50%;
     animation: ripple 1s linear infinite;
 }
+
 /* popup của video */
 
-.modal.fade#playvideo{
+.modal.fade#playvideo {
     background-color: rgba(0, 0, 0, 0.729);
 }
+
 .modal.fade#playvideo .modal-content {
     background-color: transparent;
     border: none;
@@ -407,7 +414,8 @@ header .container ul li a:hover::before {
     border: none;
 
 }
-.btn-close{
+
+.btn-close {
     background: none;
 }
 
@@ -710,6 +718,9 @@ footer {
 .dark #search_header:hover {
     color: white;
 }
+.dark .dropdown-item:hover {
+    background: #131617;
+}
 
 /* next bage home */
 .dark .nextpage {
@@ -719,6 +730,121 @@ footer {
 .dark .nextpage p {
     color: #d8dade;
 }
+
+/* about */
+.dark .about1 .content .header_content h1 {
+    color: white;
+}
+
+.dark .about1 .content .title .title_text h3 {
+    color: white;
+}
+
+.dark .about1 .content .title .title_text .first {
+    color: gray;
+}
+
+.dark .about1 .content .title .title_text ul li {
+    color: white;
+}
+
+/* about2 */
+
+
+.dark .about2 .container .history .content_item .item h5 {
+    color: white;
+}
+
+.dark .about2 .container .history .content_item .item p {
+    color: gray;
+}
+
+/* Feature */
+
+.dark .feature .container .header h3 {
+    color: white;
+}
+
+.dark .feature .container .header .loremft {
+    color: gray;
+}
+
+.dark .feature .business-types .col .card {
+    border: none ;
+}
+
+/* solution */
+
+.dark .title h3 {
+    color: white;
+}
+
+.dark .title p{
+    color: gray;
+}
+/* member */
+
+.dark .member {
+    background-color: #191C1D;
+}
+
+
+.dark .member .member_title h3 {
+    color: white;
+}
+
+
+
+
+
+.dark .member_item .team_info .info_title {
+    background: #131617;
+    border-color: rgb(58, 58, 58);
+}
+
+
+.dark .member_item .info_title h3 {
+    color: white;
+}
+.dark .member_item .info_title p{
+    color: white;
+}
+
+/* footer */
+
+.dark footer {
+    background-color: #191C1D;
+}
+
+.dark .footer_top .footer_item h4 {
+    color: #d8dade;
+}
+
+.dark .footer_top .footer_item:nth-of-type(4) div {
+    background-color: #131617 !important;
+}
+
+.dark .footer_top .footer_item:nth-of-type(4) div h3 {
+    color: #d8dade;
+}
+
+.dark .footer_top .footer_item:nth-of-type(4) div input {
+    background-color: #191C1D;
+}
+
+
+.dark .footer_bottom div a {
+    color: #d8dade;
+}
+
+
+
+
+
+
+
+
+
 
 /*  nút play trong video */
 @keyframes ripple {
